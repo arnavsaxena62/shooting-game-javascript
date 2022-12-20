@@ -19,6 +19,9 @@ class Player{
         c.fill()
     }
 }
+class bullet{
+    
+}
 
 const playerX = canvas.width/2
 const playerY = canvas.height/2
