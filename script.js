@@ -38,18 +38,19 @@ class bullet {
         this.y = y
         this.radius = radius
         this.color = color
-        this.velocity
+        this.velocity = velocity 
     }
     Bulletdraw() {
-        c.beginPath
+        c.beginPath()
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false)
         c.fillStyle = this.color
         c.fill()
     }
 }
 
-addEventListener('click', () => {
-
+addEventListener('click', (event) => {
+    const projectile = new bullet(event.clientX, event.clientY, 5, 'red', null)
+    projectile.Bulletdraw()
 }
 )
 
