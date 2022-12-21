@@ -1,5 +1,5 @@
 # shooting-game-javascript
 
-tutorial by chris on youtube
+tutorial by chriscourse on youtube
 
 done with html canvas
